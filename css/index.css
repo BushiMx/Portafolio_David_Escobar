@@ -37,3 +37,19 @@ h3{
     color: rgb(3, 3, 141);
     text-align: center;
 }
+
+.display-6 {
+    font-size: 1.7rem;
+    font-weight: 300;
+    /*line-height: 1.2;*/
+}
+
+.p-5{
+    padding: 1rem!important;
+    padding-bottom: 1rem!important;
+}
+
+.mb-4{
+    margin-bottom: 0!important;
+    padding-bottom: 1rem!important;
+}

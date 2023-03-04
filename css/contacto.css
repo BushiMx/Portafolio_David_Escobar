@@ -21,7 +21,7 @@ label{
 label input, textarea{
     width: 100%;
     background-color: #f3f3f4;
-    border: none;
+    border: 1px solid #a2c5fa;
     height: 30px;
     border-radius: 10px;
     outline: none;
