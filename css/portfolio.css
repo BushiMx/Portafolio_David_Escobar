@@ -1,0 +1,28 @@
+.portfolio_item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.portfolio_desc{
+    height: 80%;
+    padding: 0 .5rem 0 .5rem;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+.portfolio_img{
+    width: 300px;
+    height: 300px;
+    padding-bottom: 1.5rem;
+}
+
+.btn_portfolio{
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.container_btn{
+    display: flex;
+    justify-content: space-evenly;
+}

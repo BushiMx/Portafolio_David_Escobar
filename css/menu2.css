@@ -1,0 +1,110 @@
+:root{
+    --color-de-fondo: #F5F5F5;
+    --color-de-link: #f5f5f5;
+    /*font-family: 'Tilt Neon', cursive;*/
+    font-family: 'Nunito', sans-serif;
+    --ancho-principal: 100vw;
+}
+
+/* .menu{
+    display: flex;
+    width: var(--ancho-principal);
+    flex-direction: row;
+    justify-content: space-between;
+    height: 4rem;
+    flex-wrap: wrap;
+    align-content: center;
+    background-color: rgb(5, 36, 61);
+    color: #F5F5F5;
+} */
+
+header{
+    display: flex;
+    width: 25%;
+    justify-content: flex-end;
+}
+
+.header__titulo{
+    font-family: 'Tilt Neon', cursive;
+    font-size: 1.3rem;
+    align-items: center;
+    font-weight: bold;
+    color: greenyellow;
+}
+
+.header__list{
+    width: 40vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.2rem;
+    padding-right: 1.5rem;
+}
+
+/* Diseño Responsivo */
+
+@media (max-width:1050Px) {
+    .header__list{
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width:768Px) {
+    /* header{
+        width: 35vw;
+    } */
+
+    .header__titulo{
+        display: flex;
+    }
+
+    .header__list{
+        width: 50vw;
+        flex-wrap: nowrap;
+    }
+
+    .header__item{
+        padding-right: 2rem;
+    }
+
+    .header__item_show{
+        visibility: hidden;
+    }
+}
+
+@media (max-width:480Px) {
+    header{
+        width: 45vw;
+    }
+
+    .header__titulo{
+        display: flex;
+        text-align: center;
+    }
+
+    .header__list{
+        width: 50vw;
+    }
+
+    .header__item_show{
+        visibility: hidden;
+    }
+
+
+}
+
+<header class="header">
+                <img src="" alt="">
+                <h3 class="header__titulo">BushiMx</h3>
+            </header>
+            <nav>
+                <ul class="header__list">
+                    <li class="header__item header__item_show">Sobre mi</li>
+                    <!-- <li class="header__item header__item_show">Skills</li> -->
+                    <!-- <li class="header__item header__item_show">Hobbies</li> -->
+                    <li class="header__item header__item_show">Formación</li>
+                    <li class="header__item header__item_show">Proyectos</li>
+                    <li class="header__item"><a href="mailto:davidescobarmx@gmail.com">Contacto</a></li>
+                </ul>
+            </nav>

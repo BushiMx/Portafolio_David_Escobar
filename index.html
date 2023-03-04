@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>David Escobar - Programador Frontend</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/title.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="css/contacto.css">
+
+</head>
+<body>
+    <div class="page">
+        <section class="menu">
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">BushiMx</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarText">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#sobremi">Sobre mi</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#skills">Formacion</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#projects">Proyectos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </section>
+
+        <section class="title">
+            <div class="container col-xxl-8 px-4 py-5">
+                <div class="row flex-lg-row align-items-center g-5 py-5">
+                    <div class="col-10 col-sm-8 col-lg-6">
+                        <img src="assets/picture.png" class="d-block mx-lg-auto img-fluid" alt="David Escobar" width="350" height="350" loading="lazy">
+                    </div>
+                    <div class="col-lg-6">
+                        <h1 class="display-5 fw-bold lh-1 mb-3 title__bio">Hola, mi nombre es David Escobar y construyo páginas web</h1>
+                        <p class="lead text-black">Te comparto este portafolios donde encontrarás algunos de mis trabajos y más información.</p>
+                        <!-- <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                        <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
+                        <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about" id="sobremi">
+            <div class="container">
+                <h2 class="border-bottom about__title">Sobre mi</h2>
+                <p class="about__paragraph">Soy mexicano y siempre me ha gustado la tecnología, de hecho en la Universidad estudié Ing. en Computación pero el camino me llevo hacia la Dirección Organizacional.  </p>
+                <p class="about__paragraph">Desde el 2022 regresé a la TI gracias a Alura Latam y ORACLE en dónde me estoy especializando como FrontEnd. Lo cual me permite ayudar a las personas a dar a conocer su negocio o servicio al mundo o a crear una solución personalizada ante sus necesidades.</p>
+            </div>
+        </section>
+
+        <section class="skills" id="skills">
+            <div class="container px-4 py-5" id="custom-cards">
+                <h2 class="border-bottom about__title" >Skills</h2>
+                <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+                    <div class="col">
+                        <div class="card card-cover h-100 overflow-hidden rounded-4 shadow-lg" style="background-color: #dee2e6;">
+                            <div class="d-flex flex-column h-100 p-5 pb-3 text-blue text-shadow-1">
+                                <h3 class="mb-4 display-6 lh-1 fw-bold">HTML 5</h3>
+                                <ul class="d-flex list-unstyled mt-auto">
+                                    <li class="me-auto">
+                                        <img src="assets/html5.png" alt="HTML 5" width="32" height="32" class="rounded-circle border border-white">
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card card-cover h-100 overflow-hidden rounded-4 shadow-lg" style="background-color: #dee2e6;">
+                            <div class="d-flex flex-column h-100 p-5 pb-3 text-blue text-shadow-1">
+                                <h3 class="mb-4 display-6 lh-1 fw-bold">CSS</h3>
+                                <ul class="d-flex list-unstyled mt-auto">
+                                    <li class="me-auto">
+                                        <img src="assets/css.png" alt="CSS" width="32" height="32" class="rounded-circle border border-white">
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card card-cover h-100 overflow-hidden rounded-4 shadow-lg" style="background-color: #dee2e6;">
+                            <div class="d-flex flex-column h-100 p-5 pb-3 text-blue text-shadow-1">
+                                <h3 class="mb-4 display-6 lh-1 fw-bold">JS</h3>
+                                <ul class="d-flex list-unstyled mt-auto">
+                                    <li class="me-auto">
+                                        <img src="assets/js.png" alt="JS" width="32" height="32" class="rounded-circle border border-white">
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card card-cover h-100 overflow-hidden rounded-4 shadow-lg" style="background-color: #dee2e6;">
+                            <div class="d-flex flex-column h-100 p-5 pb-3 text-blue text-shadow-1">
+                                <h3 class="mb-4 display-6 lh-1 fw-bold">NODE</h3>
+                                <ul class="d-flex list-unstyled mt-auto">
+                                    <li class="me-auto">
+                                        <img src="assets/node.png" alt="NODE" width="32" height="32" class="rounded-circle border border-white">
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card card-cover h-100 overflow-hidden rounded-4 shadow-lg" style="background-color: #dee2e6;">
+                            <div class="d-flex flex-column h-100 p-5 pb-3 text-blue text-shadow-1">
+                                <h3 class="mb-4 display-6 lh-1 fw-bold">REACT</h3>
+                                <ul class="d-flex list-unstyled mt-auto">
+                                    <li class="me-auto">
+                                        <img src="assets/react.png" alt="REACT" width="32" height="32" class="rounded-circle border border-white">
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card card-cover h-100 overflow-hidden rounded-4 shadow-lg" style="background-color: #dee2e6;">
+                            <div class="d-flex flex-column h-100 p-5 pb-3 text-blue text-shadow-1">
+                                <h3 class="mb-4 display-6 lh-1 fw-bold">Bootstrap</h3>
+                                <ul class="d-flex list-unstyled mt-auto">
+                                    <li class="me-auto">
+                                        <img src="assets/bootstrap.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="soft-skills">
+            <div class="container px-4 py-5" id="custom-cards">
+                <h2 class="border-bottom about__title" >Soft Skills</h2>
+                <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+                    <div class="col">
+                        <div class="card card-cover h-100 overflow-hidden rounded-4 shadow-lg" style="background-color: #dee2e6;">
+                            <div class="d-flex flex-column h-100 p-5 pb-3 text-blue text-shadow-1">
+                                <h3 class="mb-4 display-6 lh-1 ">Comunicación Asertiva</h3>
+                                <ul class="d-flex list-unstyled mt-auto">
+                                    <li class="me-auto">
+                                        <img src="assets/html5.png" alt="Comunicación Asertiva" width="32" height="32" class="rounded-circle border border-white">
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card card-cover h-100 overflow-hidden rounded-4 shadow-lg" style="background-color: #dee2e6;">
+                            <div class="d-flex flex-column h-100 p-5 pb-3 text-blue text-shadow-1">
+                                <h3 class="mb-4 display-6 lh-1">Trabajo en equipo</h3>
+                                <ul class="d-flex list-unstyled mt-auto">
+                                    <li class="me-auto">
+                                        <img src="assets/css.png" alt="Trabajo en equipo" width="32" height="32" class="rounded-circle border border-white">
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card card-cover h-100 overflow-hidden rounded-4 shadow-lg" style="background-color: #dee2e6;">
+                            <div class="d-flex flex-column h-100 p-5 pb-3 text-blue text-shadow-1">
+                                <h3 class="mb-4 display-6 lh-1">Productividad personal</h3>
+                                <ul class="d-flex list-unstyled mt-auto">
+                                    <li class="me-auto">
+                                        <img src="assets/js.png" alt="Productividad personal" width="32" height="32" class="rounded-circle border border-white">
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card card-cover h-100 overflow-hidden rounded-4 shadow-lg" style="background-color: #dee2e6;">
+                            <div class="d-flex flex-column h-100 p-5 pb-3 text-blue text-shadow-1">
+                                <h3 class="mb-4 display-6 lh-1">Enfoque en resultados</h3>
+                                <ul class="d-flex list-unstyled mt-auto">
+                                    <li class="me-auto">
+                                        <img src="assets/node.png" alt="Enfoque en resultados" width="32" height="32" class="rounded-circle border border-white">
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card card-cover h-100 overflow-hidden rounded-4 shadow-lg" style="background-color: #dee2e6;">
+                            <div class="d-flex flex-column h-100 p-5 pb-3 text-blue text-shadow-1">
+                                <h3 class="mb-4 display-6 lh-1">Autogestión personal y del tiempo</h3>
+                                <ul class="d-flex list-unstyled mt-auto">
+                                    <li class="me-auto">
+                                        <img src="assets/react.png" alt="Autogestión personal y del tiempo" width="32" height="32" class="rounded-circle border border-white">
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card card-cover h-100 overflow-hidden rounded-4 shadow-lg" style="background-color: #dee2e6;">
+                            <div class="d-flex flex-column h-100 p-5 pb-3 text-blue text-shadow-1">
+                                <h3 class="mb-4 display-6 lh-1">Toma de decisiones</h3>
+                                <ul class="d-flex list-unstyled mt-auto">
+                                    <li class="me-auto">
+                                        <img src="assets/bootstrap.png" alt="Toma de decisiones" width="32" height="32" class="rounded-circle border border-white">
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card card-cover h-100 overflow-hidden rounded-4 shadow-lg" style="background-color: #dee2e6;">
+                            <div class="d-flex flex-column h-100 p-5 pb-3 text-blue text-shadow-1">
+                                <h3 class="mb-4 display-6 lh-1">Elaboración y validación de procesos</h3>
+                                <ul class="d-flex list-unstyled mt-auto">
+                                    <li class="me-auto">
+                                        <img src="assets/bootstrap.png" alt="Elaboración y validación de procesos" width="32" height="32" class="rounded-circle border border-white">
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card card-cover h-100 overflow-hidden rounded-4 shadow-lg" style="background-color: #dee2e6;">
+                            <div class="d-flex flex-column h-100 p-5 pb-3 text-blue text-shadow-1">
+                                <h3 class="mb-4 display-6 lh-1">Negociación</h3>
+                                <ul class="d-flex list-unstyled mt-auto">
+                                    <li class="me-auto">
+                                        <img src="assets/bootstrap.png" alt="Negociación" width="32" height="32" class="rounded-circle border border-white">
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <Section class="hobbies">
+            <div class="container px-4 py-5" id="icon-grid">
+                <h2 class="pb-2 border-bottom about__title">Hobbies</h2>
+            
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+                    <div class="col d-flex align-items-start">
+                        <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#bootstrap"/></svg>
+                    <div>
+                        <h3 class="fw-bold mb-0 fs-4">Desarrollo Personal</h3>
+                    </div>
+                    </div>
+                    <div class="col d-flex align-items-start">
+                        <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#cpu-fill"/></svg>
+                    <div>
+                        <h3 class="fw-bold mb-0 fs-4">Música</h3>
+                    </div>
+                    </div>
+                    <div class="col d-flex align-items-start">
+                        <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#calendar3"/></svg>
+                    <div>
+                        <h3 class="fw-bold mb-0 fs-4">Ejercicio</h3>
+                    </div>
+                    </div>
+                    <div class="col d-flex align-items-start">
+                        <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#home"/></svg>
+                    <div>
+                        <h3 class="fw-bold mb-0 fs-4">Artes Marciales</h3>
+                    </div>
+                    </div>
+                    <div class="col d-flex align-items-start">
+                        <svg class="bi text-muted flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#speedometer2"/></svg>
+                    <div>
+                        <h3 class="fw-bold mb-0 fs-4">Juegos de mesa</h3>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </Section>
+        
+        <section class="projects">
+            <div class="container marketing" id="projects">
+                <div class="row">
+                    <h2 class="pb-2 border-bottom about__title">Proyectos</h2>
+                    <div class="col-lg-4 portfolio_item">
+                        <h2 class="fw-normal">Encriptador de texto</h2>
+                        <p class="portfolio_desc">Challenge de Oracle para crear un encriptador de texto.</p>
+                        <img class="portfolio_img" src="assets/encriptador.png" alt="Encriptador de texto">
+                        <div class="container_btn">
+                            <p class="btn_portfolio"><a class="btn btn-primary" href="https://bushimx.github.io/oracle-encriptador/" target="_blank">Ver página &raquo;</a>
+                            <a class="btn btn-outline-primary" href="https://github.com/BushiMx/oracle-encriptador" target="_blank">Ver código &raquo;</a></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 portfolio_item">
+                        <h2 class="fw-normal">Website Coinbase</h2>
+                        <p class="portfolio_desc">Clon del website Coinbase</p>
+                        <img class="portfolio_img" src="assets/coinbase.png" alt="Website Coinbase">
+                        <div class="container_btn">
+                            <p class="btn_portfolio"><a class="btn btn-primary" href="https://bushimx.github.io/WebsiteClone-Coinbase/" target="_blank">Ver página &raquo;</a>
+                            <a class="btn btn-outline-primary" href="https://github.com/BushiMx/WebsiteClone-Coinbase" target="_blank">Ver código &raquo;</a></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 portfolio_item">
+                        <h2 class="fw-normal">Website Mel Torres - Wedding Planner</h2>
+                        <p class="portfolio_desc">Website de un cliente para mostrar sus servicios de Wedding Planner</p>
+                        <img class="portfolio_img" src="assets/mel_torres.png" alt="Website Mel Torres - Wedding Planner">
+                        <div class="container_btn">
+                            <p class="btn_portfolio"><a class="btn btn-primary" href="https://bushimx.github.io/MelTorres/" target="_blank">Ver página &raquo;</a>
+                            <a class="btn btn-outline-primary" href="https://github.com/BushiMx/MelTorres" target="_blank">Ver código &raquo;</a></p>
+                        </div>
+                    </div>
+                </div><!-- /.row -->
+            </div>
+        </section>
+
+        <section class="contacto">
+            <div class="links__network container px-4 py-5" id="contact">
+                <h2 class="pb-2 border-bottom about__title">Contacto</h2>
+                <p class="about__paragraph">Podemos estar en conatcto a través de mis redes sociales o del formulario de contacto, Saludos!  </p>
+                <ul class="links__network">
+                    <li class="links__network__item"><a href="https://github.com/BushiMx" target="_blank">Github <img src="assets\arrow_bck.png"> </a></li>
+                    <li class="links__network__item"><a href="https://www.linkedin.com/in/davidescobarmx" target="_blank">Linkedin <img src="assets\arrow_bck.png"></a></li>
+                    <li class="links__network__item"><a href="https://instagram.com/david.escobar.mx" target="_blank">Instagram <img src="assets\arrow_bck.png"></a></li>
+                    <li class="links__network__item"><a href="">Currículo <img src="assets\arrow_bck.png"></a></li>
+                </ul>
+            </div>
+            
+            <div class="form_container">
+                <h3 class="pb-2 border-bottom">Formulario de contacto</h3>
+                <div class="form">
+                    <form action="" method="">
+                        <div class="form_info">
+                            <label for="name">
+                                <input id="name" name="name" type="text" placeholder="Nombre"/>
+                            </label>
+                            <label for="email">
+                                <input id="email" name="email" type="email" placeholder="Email"/>
+                            </label>
+                            <label for="subject">
+                                <input id="subject" name="subject" type="text" placeholder="Asunto"/>
+                            </label>
+                            <label for="message">
+                                <textarea id="message" name="message" type="text" placeholder="Mensaje" height="150"></textarea>
+                            </label>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-lg" disabled>Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+        
+        <footer class="py-3 my-4">
+            <p class="text-center text-muted">&copy; 2023 David Escobar - BushiMx</p>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
