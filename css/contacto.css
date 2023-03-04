@@ -48,7 +48,7 @@ label input:focus, textarea:focus{
     box-shadow: 0 0 4px darkred;
 }
 
-.btn{
+.form_btn{
     width: 33%;
 }
 .btn:hover{
